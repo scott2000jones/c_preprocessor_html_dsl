@@ -14,14 +14,14 @@ int main(void) {
         DOCTYPE("html")
         TAG("html",
             TAG("header",
-                BASE("www.google.com", "_blank")
+                BASE("https://www.google.com", "_blank")
                 META(, "refresh", "30", )
             )
             TAG("body", 
                 TAG("ul", "%s")
                 TAG("div", 
-                    A_HREF("www.google.com", 
-                        TAG("p", "lorem ipsum lorem ipsum")
+                    A_HREF("https://www.google.com", 
+                        TAG("p", "lorem ipsum lorem ipsum\n")
                     )
                 )
                 IMG("icon.png", "a really cool icon")
